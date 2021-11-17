@@ -1,5 +1,5 @@
 # Huawei Mobile Services starter project for React Native
-Welcome to Huawei's workshop at [HackZurich 2021](https://www.hackzurich.com/) !
+Welcome to Huawei's challenge at [Junction 2021]() !
 
 You have a bunch of fresh ideas and you aspire to make them possible with the help of the [Huawei Mobile Services](https://developer.huawei.com/consumer/en/hms) (HMS). We feel your enthusiasm - that's why we prepared this React Native starter project that will allow you to start coding *immediately* and avoid time consuming configuration steps. The project is designed for Android devices only.
 
@@ -8,8 +8,8 @@ You have a bunch of fresh ideas and you aspire to make them possible with the he
 ### I'm in!
 
 1. fork/clone this project
-2. visit the workshop Slack channel [#03_ws04_huawei](https://hackzurich2021.slack.com/archives/C02ALK7DHPA) 
-3. look for the file with secrets ([direct link ](https://hackzurich2021.slack.com/files/U02DJ2Z2C9L/F02FKD83SMA/secrets_to_unzip_in_project_root.zip))
+2. visit the workshop Discord channel [Junction 21 Hackathon Huawei](https://discord.gg/PmdzQbWu) 
+3. look for the file with secrets ([direct link ]())
 4. unzip the file into the project's *android* directory
 5. start coding!
 
@@ -29,7 +29,30 @@ The file with secrets is the link between the starter project and the shared acc
 - the `agconnect-services.json` configuration file
 - the signing configuration needed to authenticate this app to use HMS services
 
+### Start coding
+1. Add  SDK location in local.properties if needed
+- Go to your Project -> Android
+- Open the file local.properties
+- Paste your Android SDK path depending on the operating system:
++ Windows
 
+sdk.dir = C:/Users/USERNAME/AppData/Local/Android/sdk
+
++ Linux or MacOS
+
+sdk.dir = /home/USERNAME/Android/sdk
+
+Replace USERNAME with your user name
+
+2. It is highly recommmended to use yarn to install package instead of npm:
+    ```
+    yarn 
+    ```
+3. then run the app
+
+    ```
+    npx react-native run-android
+    ```
 
 ### But I don't have a Huawei HMS test device ...
 
@@ -43,9 +66,9 @@ There are solutions.
 
 ### Starter projects for other platforms
 
-- for native Android: https://github.com/abusuioc/hms-start-hacking
+- for native Android: https://github.com/Huawei-Nordic/Junction2021_native
 
-- for Flutter: https://github.com/abusuioc/hms-start-hacking-flutter
+- for Flutter: https://github.com/Huawei-Nordic/junction2021_flutterx
 
   
 
@@ -54,6 +77,8 @@ More HMS code samples:
 - https://github.com/HMS-Core 
 - https://github.com/Explore-In-HMS/HmsSandbox
 
+Add more Huawei React Native plugins:
+- https://developer.huawei.com/consumer/en/doc/development/HMS-Plugin-Guides/rn-intro-0000001050975015
 
 
 **Happy hacking!**

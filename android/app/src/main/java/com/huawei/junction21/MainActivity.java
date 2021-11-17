@@ -1,4 +1,4 @@
-package com.huawei.hackzurich;
+package com.huawei.junction21;
 
 import com.facebook.react.ReactActivity;
 
